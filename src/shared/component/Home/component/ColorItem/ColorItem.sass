@@ -1,0 +1,34 @@
+@import 'shared/style/mixin.sass'
+
+.root
+    position: relative
+    height: 100%
+    +clearfix
+
+.color
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    width: 80px
+
+.name
+    padding-left: 80px
+    height: 100%
+    +clearfix
+
+.info,
+.hex
+    float: left
+    font-weight: 600
+
+.info
+    width: 60px
+    font-size: 16px
+    letter-spacing: normal
+    color: fade(#4a4a4a, 0.4)
+    text-align: right
+
+.hex
+    padding-left: 20px
+    color: fade(#4a4a4a, 0.8)
